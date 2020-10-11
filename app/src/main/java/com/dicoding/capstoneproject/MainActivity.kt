@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 startActivity(Intent(this, Class.forName("com.dicoding.favorite.FavoriteActivity")))
             }
             R.id.nav_map -> {
-                startActivity(Intent(this, Class.forName("com.dicoding.kamus.maps.MapsActivity")))
+                startActivity(Intent(this, SekolahActivity::class.java))
             }
         }
         if (fragment != null) {

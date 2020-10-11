@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.MapsDetail" />
+        <activity android:name=".view.SekolahDetail" />
         <activity android:name=".SekolahActivity" />
         <activity
             android:name=".view.detail.DetailKamusActivity"
